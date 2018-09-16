@@ -65,5 +65,5 @@ INNER JOIN pledges
 ON pledges.project_id = projects.id
 INNER JOIN users
 ON Users.id = Pledges.user_id
-WHERE projects.category = ‘books’;"
+WHERE category = ‘books’;"
 end
